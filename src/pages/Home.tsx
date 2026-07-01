@@ -73,7 +73,7 @@ function GlitchName({
   );
 }
 
-export default function Home({ photoRef, nameRef, bioRef, dividerRef, divider2Ref }: HomeProps) {
+export default function Home({ photoRef, nameRef, bioRef, dividerRef }: HomeProps) {
   const [photoFailed, setPhotoFailed] = useState(false);
 
   return (
