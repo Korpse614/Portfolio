@@ -6,7 +6,7 @@ interface HomeProps {
   nameRef: RefObject<HTMLDivElement | null>;
   bioRef: RefObject<HTMLDivElement | null>;
   dividerRef: RefObject<HTMLDivElement | null>;
-  divider2Ref: RefObject<HTMLDivElement | null>;
+  divider2Ref?: RefObject<HTMLDivElement | null>;
 }
 
 // Glitch name block — base white text with two ghost layers (purple + white)
